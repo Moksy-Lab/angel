@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fdb-block {
+    padding: 30px 0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-Color: #02C39A;
+    --secondary-Color: #f6425f;
+    --text-Color: #000000;
+    --alert-Color: #0099ff;
+    --success-Color: #26C976;
+    --warning-Color: #FAAF3A;
+    --error-Color: #F94C10;
+    --grey-Color: #ACADAE;
+    --black-Color: #272D4E;
+    --main-Background-Color: #FFFFFF;
+    --secondary-Background-Color: #5560C8;
+    --secondary-Font: "Montserrat", sans-serif;
+    --button-padding: 12px 42px 12px 42px;
+    --button-border-radius: 12px;
+    --button-font-weight: 400;
+    --heading: 35px;
+    --heading-two: 25px;
+}
+
+.headerhdmc0pmwml .navbar-light .navbar-nav .nav-link{
+color: var(--text-Color);
+}
+.registrationh222fa673a781ab9e h2{
+    font-size: 40px;
+}
+.btn-lg {
+    padding: var(--button-padding);
+}
+.registrationh222fa673a781ab9e .btn-dark{
+    color: var(--main-Background-Color);
+    background-color: var(--warning-Color);
+    border-color: var(--warning-Color);
+    box-shadow: none;
+}
+.fulbf5e57dc82a907a3 .fdb-block {
+    padding: 3.5rem 0;
+}
+.fulbf5e57dc82a907a3 h1 {
+    font-size: var(--heading);
+}
+.fulbf5e57dc82a907a3 h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.aboutd390a380620aac0e .video_card::before{
+    background-color: transparent;
+}
+.counteraf598102c9dad94e{
+    padding-top: 50px;
+}
+counteraf598102c9dad94e h2 {
+    font-size: var(--heading);
+    color: var(--warning-Color);
+}
+.bannerb9ce7550acbf1ce9f .button{
+    color: var(--text-Color);
+    background-color: var(--warning-Color);
+    border-color: var(--warning-Color);
+    padding: var(--button-padding);
+    box-shadow: none;
+}
+.pricese9815bebb7496bd .fdb-block .fdb-touch {
+    border-top: solid 0.3125rem var(--primary-Color);
+}
+.pricese9815bebb7496bd .fdb-block .btn-primary {
+    color: #fff;
+    background-color: var(--alert-Color);
+    border-color: var(--alert-Color);
+    box-shadow: none;
+}
+.teamtmpxpt1wbh8 h1 {
+    font-size: 35px;
+}
+.flightft09nw97giq .fdb-block {
+    padding: 0px;
+}
