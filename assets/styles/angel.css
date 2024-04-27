@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-.fdb-block {
-    padding: 30px 0;
-}
-
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -12,7 +7,7 @@
 :root {
     --primary-Color: #02C39A;
     --secondary-Color: #f6425f;
-    --text-Color: #000000;
+    --text-Color: #3B3C36;
     --alert-Color: #0099ff;
     --success-Color: #26C976;
     --warning-Color: #FAAF3A;
@@ -22,11 +17,20 @@
     --main-Background-Color: #FFFFFF;
     --secondary-Background-Color: #5560C8;
     --secondary-Font: "Montserrat", sans-serif;
-    --button-padding: 12px 42px 12px 42px;
+    --button-padding: 12px 42px;
     --button-border-radius: 12px;
     --button-font-weight: 400;
-    --heading: 35px;
-    --heading-two: 25px;
+    --heading:50px;
+	--heading-large: 35px;
+    --heading-medium: 25px;
+    --paragraph: 18px;
+    --logo-border-radius: 15px;
+    --jumbotron-padding: 50px 6px;
+    --section-padding:30px 0px;
+
+}
+.fdb-block {
+    padding: 0rem 0;
 }
 /*headerhdmc0pmwml*/
 .headerhdmc0pmwml .navbar-light .navbar-nav .nav-link{
@@ -34,7 +38,7 @@ color: var(--text-Color);
 }
 /*registrationh222fa673a781ab9e*/
 .registrationh222fa673a781ab9e h2{
-    font-size: 40px;
+    font-size: var(--heading);
 }
 .registrationh222fa673a781ab9e .btn-lg {
     padding: var(--button-padding);
@@ -44,12 +48,16 @@ color: var(--text-Color);
     background-color: var(--warning-Color);
     border-color: var(--warning-Color);
     box-shadow: none;
+    font-size: 16px;
 }
 .registrationh222fa673a781ab9e .bg-primary {
     background-color: var(--alert-Color) !important;
 }
 .registrationh222fa673a781ab9e .bg-overlay {
-    background: linear-gradient(to left, #1c7ce0c4, #272D4E)
+    background: linear-gradient(to left, var(--alert-Color), var(--black-Color))
+}
+.registrationh222fa673a781ab9e p{
+    font-size: var(--paragraph);
 }
 /*fulbf5e57dc82a907a3*/
 .fulbf5e57dc82a907a3 .fdb-block {
