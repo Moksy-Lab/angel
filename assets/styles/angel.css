@@ -60,6 +60,9 @@ color: var(--text-Color);
     font-size: var(--paragraph);
 }
 /*fulbf5e57dc82a907a3*/
+.fulbf5e57dc82a907a3 {
+    padding: var(--section-padding);
+}
 .fulbf5e57dc82a907a3 .fdb-block {
     padding: 0rem 0;
 }
@@ -75,6 +78,9 @@ color: var(--text-Color);
     font-size: var(--paragraph);
 }
 /*aboutd390a380620aac0e*/
+.aboutd390a380620aac0e{
+    padding: var(--section-padding);
+}
 .aboutd390a380620aac0e .video_card::before{
     background-color: transparent;
 }
@@ -89,7 +95,7 @@ color: var(--text-Color);
 }
 /*counteraf598102c9dad94e*/
 .counteraf598102c9dad94e{
-    padding-top: 50px;
+    padding: var(--section-padding);
 }
 .counteraf598102c9dad94e h2 {
     font-size: var(--heading-large);
@@ -100,6 +106,9 @@ color: var(--text-Color);
     color: var(--secondary-Background-Color);
 }
 /*bannerb9ce7550acbf1ce9f*/
+.bannerb9ce7550acbf1ce9f p{
+    font-size: var(--heading-medium);
+}
 .bannerb9ce7550acbf1ce9f p{
     font-size: var(--heading-medium);
 }
@@ -135,6 +144,12 @@ color: var(--text-Color);
     border-color: var(--alert-Color);
     box-shadow: none;
 }
+.pricese9815bebb7496bd .fdb-block{
+    padding: 0rem 0;
+}
+.pricese9815bebb7496bd{
+    padding: var(--section-padding);
+}
 /*teamtmpxpt1wbh8*/
 .teamtmpxpt1wbh8 h1 {
     font-size: var(--heading-large);
@@ -148,6 +163,9 @@ color: var(--text-Color);
 .teamtmpxpt1wbh8 h4{
     font-size: var(--paragraph);
  }
+ .teamtmpxpt1wbh8{
+    padding: var(--section-padding);
+ }
 /*flightft09nw97giq*/
 .flightft09nw97giq .fab {
 color: var(--alert-Color);
@@ -157,4 +175,10 @@ color: var(--alert-Color);
 }
 .flightft09nw97giq .lead {
     font-size: var(--paragraph);
+}
+.flightft09nw97giq{
+    padding: var(--section-padding);
+}
+.flightft09nw97giq p{
+    margin-bottom: 0rem;
 }
