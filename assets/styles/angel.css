@@ -79,15 +79,31 @@ color: var(--text-Color);
 .aboutd390a380620aac0e .video_card::before{
     background-color: transparent;
 }
+.aboutd390a380620aac0e h4{
+    display: none;
+}
+.aboutd390a380620aac0e .mb-5{
+    margin-bottom: 1rem !important;
+}
+.aboutd390a380620aac0e p{
+    font-size: var(--paragraph);
+}
 /*counteraf598102c9dad94e*/
 .counteraf598102c9dad94e{
     padding-top: 50px;
 }
 .counteraf598102c9dad94e h2 {
-    font-size: var(--heading);
+    font-size: var(--heading-large);
     color: var(--warning-Color);
 }
+.counteraf598102c9dad94e h4{
+    font-size: var(--heading-medium);
+    color: var(--secondary-Background-Color);
+}
 /*bannerb9ce7550acbf1ce9f*/
+.bannerb9ce7550acbf1ce9f p{
+    font-size: var(--heading-medium);
+}
 .bannerb9ce7550acbf1ce9f .button{
     color: var(--text-Color);
     background-color: var(--warning-Color);
@@ -99,6 +115,18 @@ color: var(--text-Color);
     color: var(--main-Background-Color);
 }
 /*pricese9815bebb7496bd*/
+.pricese9815bebb7496bd h1{
+    font-size: var(--heading-large);
+}
+.pricese9815bebb7496bd h2{
+    font-size: var(--heading-medium);
+}
+.pricese9815bebb7496bd em{
+    display: none;
+}
+.pricese9815bebb7496bd .pt-4{
+    padding-top: 0rem !important;
+}
 .pricese9815bebb7496bd .fdb-block .fdb-touch {
     border-top: solid 0.3125rem var(--primary-Color);
 }
@@ -110,12 +138,24 @@ color: var(--text-Color);
 }
 /*teamtmpxpt1wbh8*/
 .teamtmpxpt1wbh8 h1 {
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 .teamtmpxpt1wbh8 .fdb-block{
     padding: 0px;
 }
+.teamtmpxpt1wbh8 .lead{
+   display: none;
+}
+.teamtmpxpt1wbh8 h4{
+    font-size: var(--paragraph);
+ }
 /*flightft09nw97giq*/
 .flightft09nw97giq .fab {
 color: var(--alert-Color);
+}
+.flightft09nw97giq .h2 {
+    font-size: var(--heading-large);
+}
+.flightft09nw97giq .lead {
+    font-size: var(--paragraph);
 }
