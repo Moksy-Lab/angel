@@ -150,6 +150,13 @@ color: var(--text-Color);
 .pricese9815bebb7496bd{
     padding: var(--section-padding);
 }
+.pricese9815bebb7496bd ul li::before {
+    content: attr(data-icon);
+    font-size: 1.25em;
+  }
+  ul li{
+   list-style-type: none;
+  }
 /*teamtmpxpt1wbh8*/
 .teamtmpxpt1wbh8 h1 {
     font-size: var(--heading-large);
